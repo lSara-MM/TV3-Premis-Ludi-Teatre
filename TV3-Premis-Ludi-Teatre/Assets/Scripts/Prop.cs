@@ -2,8 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-using UnityEngine.AddressableAssets;
-using UnityEngine.ResourceManagement.AsyncOperations;
+//using UnityEngine.AddressableAssets;
+//using UnityEngine.ResourceManagement.AsyncOperations;
 
 //https://gamedevbeginner.com/how-to-change-a-sprite-from-a-script-in-unity-with-examples/
 //https://gamedevbeginner.com/addressable-assets-in-unity/
