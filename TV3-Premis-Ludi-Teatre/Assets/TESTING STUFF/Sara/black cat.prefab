@@ -11,8 +11,9 @@ GameObject:
   - component: {fileID: 5724174235593402929}
   - component: {fileID: 5193623948672702282}
   - component: {fileID: 1186117516747289285}
+  - component: {fileID: -5593831428679414206}
   m_Layer: 0
-  m_Name: Prop
+  m_Name: black cat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -130,3 +131,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 3.6, y: 3.6}
   m_EdgeRadius: 0
+--- !u!114 &-5593831428679414206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5757268686045525210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b020ccd457f13444fb17e213d507f29d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  propName: black cat

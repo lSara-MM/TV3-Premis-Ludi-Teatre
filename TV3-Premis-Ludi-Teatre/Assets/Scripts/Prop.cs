@@ -2,24 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-//using UnityEngine.AddressableAssets;
-//using UnityEngine.ResourceManagement.AsyncOperations;
-
-//https://gamedevbeginner.com/how-to-change-a-sprite-from-a-script-in-unity-with-examples/
-//https://gamedevbeginner.com/addressable-assets-in-unity/
-
 public class PropData
 {
-    public string name { get; set; }
-    public string internalTag { get; set; }
-    public string imagePath { get; set; }
+    public string Name { get; set; }
+    public string InternalTag { get; set; }
 
-    public Prop CreateProp(string name, string internalTag, string imgPath)
+    public Prop CreateProp(string name, string internalTag)
     {
         if (true)   // validation?
         {
-            Prop prop = new Prop(this.name, this.internalTag, this.imagePath);
-            return prop;
+            Prop prop = new Prop(name, internalTag);
+            Globals.propsList.Add(prop);
+
+            //Globals.propsDictionary.Add(name, prop);
         }
 
         return null;
@@ -30,14 +25,18 @@ public class Prop
 {
     public string name;
     public string internalTag;
-    public string imagePath;
+    public bool correctPlace;
 
     public Prop()
     {
 
     }
-    public Prop(string name, string internalTag, string imgPath)
-    {
 
+    public Prop(string name, string internalTag)
+    {
+        this.name = name;
+        this.internalTag = internalTag;
+
+        correctPlace = false;
     }
 }
