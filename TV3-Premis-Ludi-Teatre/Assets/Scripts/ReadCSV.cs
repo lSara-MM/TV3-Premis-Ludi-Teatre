@@ -69,16 +69,4 @@ public class ReadCSV : MonoBehaviour
 
         return result;
     }
-
-    void Start()
-    {
-        // Assuming the CSV file is located at Resources/biome_data.csv
-        //List<BiomeData> biomeDataList = ReadCSV.Read<BiomeData>("WeatherSystem");
-
-        //// Example: Print each biome's data
-        //foreach (var data in biomeDataList)
-        //{
-        //    Debug.Log($"Biome: {data.Biomes}, Base Temp: {data.Base}, Min Temp: {data.Min}, Max Temp: {data.Max}, Sunny: {data.Sunny}, Rain: {data.Rain}, Wind: {data.Wind}");
-        //}
-    }
 }

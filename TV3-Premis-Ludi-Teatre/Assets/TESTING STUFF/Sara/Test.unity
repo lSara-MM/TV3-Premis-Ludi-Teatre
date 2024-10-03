@@ -948,6 +948,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefabProp: {fileID: 0}
+  boundaryMin: {x: -8, y: -2}
+  boundaryMax: {x: 8, y: 4.5}
+  showBoundaries: 1
 --- !u!4 &1201166677
 Transform:
   m_ObjectHideFlags: 0

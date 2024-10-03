@@ -19,7 +19,7 @@ public class PropButton : MonoBehaviour
                 csPropManager.SetPrefab(goProp);
                 Debug.Log($"Prop {csPropManager.GetPrefab().name}");
             }
-            else
+            else if (csPropManager.GetPrefab().name == csProp)
             {
                 csPropManager.SetPrefab(null);
                 Debug.Log($"Prop null");
