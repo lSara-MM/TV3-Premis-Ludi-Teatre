@@ -21,6 +21,7 @@ public class PropData
     }
 }
 
+[System.Serializable]
 public class Prop
 {
     public string name;

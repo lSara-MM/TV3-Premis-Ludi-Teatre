@@ -14,7 +14,9 @@ public class PropBehaviour : MonoBehaviour
 
     private void Awake()
     {
-        prop = Globals.propsList.Find((x) => x.name == this.name);
+        string n = this.name.Replace("(Clone)", "");
+
+        prop = Globals.propsList.Find((x) => x.name == n);
 
         /* equivalent to
          bool IsPropMatch(GameObject x)
@@ -33,7 +35,6 @@ public class PropBehaviour : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
     }
 }
 
