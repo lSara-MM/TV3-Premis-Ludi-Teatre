@@ -27,6 +27,7 @@ public class Prop
     public string name;
     public string internalTag;
     public bool correctPlace;
+    public int instances;
 
     public Prop()
     {
@@ -38,6 +39,7 @@ public class Prop
         this.name = name;
         this.internalTag = internalTag;
 
+        instances = 0;
         correctPlace = false;
     }
 }

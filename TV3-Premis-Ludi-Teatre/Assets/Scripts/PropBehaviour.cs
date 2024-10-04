@@ -11,6 +11,7 @@ using UnityEngine;
 public class PropBehaviour : MonoBehaviour
 {
     public Prop prop = null;
+    [SerializeField] private PropManager csPropManager;
 
     private void Awake()
     {
@@ -24,6 +25,11 @@ public class PropBehaviour : MonoBehaviour
            return x.name == propName;
         }
          */
+
+        csPropManager = GameObject.Find("PropManager").GetComponent<PropManager>();
+
+        prop.instances++;
+        csPropManager.numProps++;
     }
 
     // Start is called before the first frame update
@@ -32,9 +38,9 @@ public class PropBehaviour : MonoBehaviour
 
     }
 
-    // Update is called once per frame
-    void Update()
+    void OnMouseDown()
     {
+        csPropManager.SetPrefabToMove(this.gameObject);
     }
 }
 

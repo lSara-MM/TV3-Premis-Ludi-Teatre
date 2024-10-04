@@ -23,11 +23,16 @@ public class PropButton : MonoBehaviour
                 csPropManager.GetPrefab().name != csProp)
             {
                 csPropManager.SetPrefab(goProp);
+                csPropManager.spawnPrefabMode = true;
+
+
                 Debug.Log($"Prop {csPropManager.GetPrefab().name}");
             }
             else if (csPropManager.GetPrefab().name == csProp)
             {
                 csPropManager.SetPrefab(null);
+                csPropManager.spawnPrefabMode = false;
+
                 Debug.Log($"Prop null");
             }
         }
