@@ -232,8 +232,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -540, y: -83.2063}
-  m_SizeDelta: {x: 127.084, y: 132.3697}
+  m_AnchoredPosition: {x: -307.00012, y: -38.034096}
+  m_SizeDelta: {x: 56.238, y: 58.5771}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &329946776
 MonoBehaviour:
@@ -747,8 +747,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 19, y: -352.79373}
-  m_SizeDelta: {x: 1433.3176, y: 374.4028}
+  m_AnchoredPosition: {x: -0.000015259, y: -224.63}
+  m_SizeDelta: {x: 762.2892, y: 150.7376}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1479682479
 MonoBehaviour:
@@ -999,11 +999,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 574946769779863932, guid: 64a496ab4ee9acf4381db0ad62fdb6fe, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 127.084
+      value: 56.238
       objectReference: {fileID: 0}
     - target: {fileID: 574946769779863932, guid: 64a496ab4ee9acf4381db0ad62fdb6fe, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 132.3697
+      value: 58.5771
       objectReference: {fileID: 0}
     - target: {fileID: 574946769779863932, guid: 64a496ab4ee9acf4381db0ad62fdb6fe, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1035,11 +1035,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 574946769779863932, guid: 64a496ab4ee9acf4381db0ad62fdb6fe, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -540
+      value: -307
       objectReference: {fileID: 0}
     - target: {fileID: 574946769779863932, guid: 64a496ab4ee9acf4381db0ad62fdb6fe, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 72.7937
+      value: 31
       objectReference: {fileID: 0}
     - target: {fileID: 574946769779863932, guid: 64a496ab4ee9acf4381db0ad62fdb6fe, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
