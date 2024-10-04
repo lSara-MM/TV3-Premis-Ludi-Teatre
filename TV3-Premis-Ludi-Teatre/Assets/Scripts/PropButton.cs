@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class PropButton : MonoBehaviour
@@ -9,7 +10,7 @@ public class PropButton : MonoBehaviour
 
     private void Start()
     {
-        csPropManager = GameObject.Find("PropManager");
+        csPropManager = GameObject.Find("PropManager").GetComponent<PropManager>();
     }
 
     public void SelectProp()
