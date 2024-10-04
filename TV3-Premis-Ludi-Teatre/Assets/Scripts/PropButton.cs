@@ -7,6 +7,11 @@ public class PropButton : MonoBehaviour
     [SerializeField] private GameObject goProp;
     [SerializeField] private PropManager csPropManager;
 
+    private void Start()
+    {
+        csPropManager = GameObject.Find("PropManager");
+    }
+
     public void SelectProp()
     {
         string csProp = goProp?.GetComponent<PropBehaviour>().gameObject.name;
